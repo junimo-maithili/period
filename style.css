@@ -12,28 +12,6 @@ h1.stat_1 {
           }
 
 
-        #header img {
-            height: 40px;
-            width: 415px;
-            position: absolute; left: 245px; top: 110px;
-            box-shadow: 1px 1px 0 rgb(210, 140, 0),
-            2px 2px 0 rgb(210, 140, 0),
-            3px 3px 0 rgb(210, 140, 0),
-            4px 4px 0 rgb(210, 140, 0),
-            5px 5px 0 rgb(210, 140, 0),
-            6px 6px 0 rgb(210, 140, 0),
-            7px 7px 0 rgb(210, 140, 0),
-            8px 8px 0 rgb(210, 140, 0),
-            9px 9px 0 rgb(210, 140, 0),
-            10px 10px 0 rgb(210, 140, 0);
-        }
-
-        .title {
-            font-family: 'Josefin Sans';
-            font-weight: bold;
-            color: rgb(166, 82, 201);
-            margin-left: 5px;
-
         .container {
             width: 80%;
             margin: 20px auto;
