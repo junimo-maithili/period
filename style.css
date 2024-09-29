@@ -34,9 +34,11 @@ body {
             }
 
 
-            h1 {
-                font-weight: bold;
-            }
+            h1{
+              color: rgb(110,8,61);
+              font-size: 100px;
+              margin: 0px;
+}
 
             img {
                 width: 790px;
@@ -96,7 +98,7 @@ body {
             text-align: center;
           }
 
-          .navbar ul{
+         .navbar ul{
             list-style-type: none;
             background-color: white;
             padding: 0px;
@@ -104,26 +106,29 @@ body {
             display: block;
             text-align: center;
             overflow: none;
+            position: relative;
           }
 
           .navbar a{
-            font-size: 30px;
-            color: black;
+            font-size: 20px;
+            color: white;
             text-decoration: none;
-            padding: 50px;
-          }
-
-          .navbar a:hover{
-            background-color: rgb(255, 176, 217);
+            padding: 20px;
+            left: px;
+            text-align: center;
           }
 
           .navbar li{
             float: left;
           }
 
+
 h2 {
     text-align: center;
     color: rgb(110,8,61);
+    font-size: 30px;
+    margin-top: 60px;
+
 }
 
 h4 {
