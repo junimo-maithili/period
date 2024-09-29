@@ -1,48 +1,58 @@
 <html>
     <head>
-        <title> Products and Quiz </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale:1.0">
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'> 
     </head>
     <body>
-        <h1> Period Product Quiz! </h1>
-        <p> Test your knowledge on Period Products!</p>
+        <div class="navigation"> 
+            <h1> Period Perfect </h1>
 
-        <div class="quiz">
-            <h4 class= "question"> 1. I care about my environmental impact and want to use the most environmentally friendly products
+        <nav class="navbar">
+            <ul>
+                <li><a href="home_page.html">Home</a></li>
+                <li><a href="Product.html">Period Product Quiz!</a></li>
+            </ul>
+        </nav> </div>
+
+        <br>
+
+        <h2> Period Product Quiz! </h2>
+        <p class="p1"> Test your knowledge on Period Products!</p1>
+
+        <div class="quiz" >
+            <h4 class= "question"> 1. I value sustainable products over price
+            </h4>
+                    <button id = "button_1a"> Yes </button>
+                    <button id = "button_1b"> No </button>
+            <h4 class= "question"> 2. I do not want to change or purchase my product often
             </h4>
                 <div class="options">
-                    <button id = "button_1a" class="option"> Yes </button>
-                    <button id = "button_1b" class="option"> No </button>
+                    <button id = "button_2a"> Yes </button>
+                    <button id = "button_2b"> No </button>
                 </div>
-            <h4 class= "question"> 2. I want a product I do not have to change or purchase often
+            <h4 class= "question"> 3. I am uncomfortable with inserting products inside my body
             </h4>
                 <div class="options">
-                    <button id = "button_2a" class="option" type="submit" value="Submit"> Yes </button>
-                    <button id = "button_2b" class="option" type="submit" value="Submit"> No </button>
-                </div>
-            <h4 class= "question"> 3. I am uncomfortable with inserting products into my vaginal canal
-            </h4>
-                <div class="options">
-                    <button id = "button_3a" class="option"> Yes </button>
-                    <button id = "button_3b" class="option"> No </button>
+                    <button id = "button_3a"> Yes </button>
+                    <button id = "button_3b"> No </button>
                 </div>
             <h4 class= "question"> 4. I want to avoid the risk of Toxic Shock Syndrome as much as I can
             </h4>
                 <div class="options">
-                    <button id = "button_4a" class="option"> Yes </button>
-                    <button id = "button_4b" class="option"> No </button>
+                    <button id = "button_4a" > Yes </button>
+                    <button id = "button_4b" > No </button>
                 </div>
-            <h4 class= "question"> 5. I am uncomfortable reusing my product
+            <h4 class= "question"> 5. I am uncomfortable washing and reusing my product
             </h4>
                 <div class="options">
-                    <button id = "button_5a" class="option"> Yes </button>
-                    <button id = "button_5b" class="option"> No </button>
+                    <button id = "button_5a"> Yes </button>
+                    <button id = "button_5b"> No </button>
                 </div>
-            <br> 
-            <button id = "submit"> Submit </button>
+            <br>
+
+            <button class="submit_button" id = "submit"> Submit </button>
 
             <h4 id="result"> </h4>
         </div>
